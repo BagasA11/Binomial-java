@@ -7,7 +7,6 @@ public class Binomial
     //set value
     public Binomial(int Times, int count, double probability)
     {
-        
         this.Times = validTime(Times);
         this.count = validCount(count);
         this.probability = validProb(probability);
